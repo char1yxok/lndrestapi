@@ -1,4 +1,4 @@
-'''
+```
 ▶︎curl --insecure --header "Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000  /Users/USER/Library/Application\ Support/Lnd/data/chain/bitcoin/testnet/admin.macaroon)" https://localhost:8080/v1/getinfo |jq .
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -22,3 +22,4 @@
   ],
   "color": "#3399ff"
 }
+```
