@@ -1,6 +1,6 @@
 ### NOTICE
 You need to change macaroon PATH.
-* LINUX
+* Linux
 ```
 ~/.lnd/data/chain/bitcoin/testnet/admin.macaroon
 ```
@@ -12,6 +12,7 @@ You need to change macaroon PATH.
 
 ```
 ▶︎curl --insecure --header "Grpc-Metadata-macaroon: $(xxd -ps -u -c 1000  /Users/USER/Library/Application\ Support/Lnd/data/chain/bitcoin/testnet/admin.macaroon)" https://localhost:8080/v1/getinfo |jq .
+
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   491  100   491    0     0  31345      0 --:--:-- --:--:-- --:--:-- 32733
